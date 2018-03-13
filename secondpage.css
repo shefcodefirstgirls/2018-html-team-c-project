@@ -19,7 +19,7 @@ a{
 
 }
 .title{
-  background-image: url("Photos/lex-guerra-258587-unsplash.jpg");
+  background-image: url("Photos/david-straight-341873-unsplash.jpg");
   height: 500px;
   background-size: cover;
   Background-position: center;
@@ -41,12 +41,38 @@ a{
   text-align: center;
   background-color: rgba(0,0,0,.5);
 }
-.lists{
+.bar{
   color: black;
   text-align: left;
   font-family:'Yanone Kaffeesatz', sans-serif;
   font-size:40px;
   }
+.barlist{
+  margin-bottom: 200px;
+  }
+.food{
+  color: black;
+  text-align: left;
+  font-family:'Yanone Kaffeesatz', sans-serif;
+  font-size:40px;
+}
+.footlist{
+  margin-bottom: 200px;
+}
+.cocktails{
+  background-image: url("Photos/roman-kraft-310183-unsplash.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  margin: 20px 0px 20px 0px;
+}
+.restaurants{
+  background-image: url("Photos/lum3n-352940-unsplash.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  margin: 20px 0px 20px 0px;
+}
 p{
 color: black;
 text-align: left;
