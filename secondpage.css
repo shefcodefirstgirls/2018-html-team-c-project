@@ -1,14 +1,16 @@
 body{
   background-color: #808080;
 }
-.button {
-  font family: 'Yanone Kaffeesatz', sans-serif;
+.btn{
+  font-family:'Yanone Kaffeesatz', sans-serif;
   text-align: center;
   display: inline-flex;
-  background-color: rgba(0,0,0,.5);
+  background-color: black;
+  font-size: 30px;
   color: white;
-  padding: 2px 2px 2px 2px;
-  margin-top: 0px;
+  padding: 15px 15px 15px 15px;
+  margin: 0px 0px 0px 20px;
+  border-style: hidden;
 }
 a{
   color: white;
@@ -16,14 +18,13 @@ a{
   text-decoration: none;
   font-family:'Yanone Kaffeesatz', sans-serif;
   font-size:25px;
-
 }
 .title{
   background-image: url("Photos/david-straight-341873-unsplash.jpg");
   height: 500px;
   background-size: cover;
   Background-position: center;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0px 50px 0px;
 }
 .page-name{
   font-family: 'Berkshire Swash', cursive;
