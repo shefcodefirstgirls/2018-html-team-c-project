@@ -5,26 +5,26 @@ body{
   font-family:'Yanone Kaffeesatz', sans-serif;
   text-align: center;
   display: inline-flex;
-  background-color: black;
+  background-color: rgba(0,0,0,.9);
   font-size: 30px;
   color: white;
   padding: 15px 15px 15px 15px;
   margin: 0px 0px 0px 20px;
-  border-style: hidden;
+  border-style: none;
 }
 a{
   color: white;
   text-align: center;
   text-decoration: none;
   font-family:'Yanone Kaffeesatz', sans-serif;
-  font-size:25px;
+  font-size:30px;
 }
 .title{
   background-image: url("Photos/david-straight-341873-unsplash.jpg");
   height: 500px;
   background-size: cover;
   Background-position: center;
-  margin: 20px 0px 50px 0px;
+  margin: 20px 0px 0px 0px;
 }
 .page-name{
   font-family: 'Berkshire Swash', cursive;
@@ -32,37 +32,40 @@ a{
   font-size: 90px;
   text-align: left;
   padding: 2px 2px 2px 2px;
+  margin: 20px 0px 0px 0px;
 }
 .tagline{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: white;
   font-size: 50px;
   margin: 90px 0px 10px 0px;
+  padding: 20px 20px 20px 20px;
   background-size: contain;
   text-align: center;
   background-color: rgba(0,0,0,.5);
 }
 .bar{
   color: black;
-  text-align: left;
+  text-align: center;
   font-family:'Yanone Kaffeesatz', sans-serif;
-  font-size:40px;
-  margin-left: 100px;
+  font-size:65px;
+  margin: 10px 10px 10px 10px;
   }
 .barlist{
-  margin-bottom: 200px;
-  margin-left: 100px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 400px;
   }
 .food{
   color: black;
-  text-align: left;
+  text-align: center;
   font-family:'Yanone Kaffeesatz', sans-serif;
-  font-size:40px;
-  margin-left: 100px;
+  font-size:65px;
+  margin: 10px 10px 10px 10px;
 }
 .foodlist{
-  margin-bottom: 200px;
-  margin-left: 100px;
+  text-align: center;
+  font-size: 30px;
 }
 #cocktails{
   background-image: url("Photos/roman-kraft-310183-unsplash.jpg");
