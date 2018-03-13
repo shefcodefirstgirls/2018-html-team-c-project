@@ -20,7 +20,6 @@ body{
   text-align: left;
 }
 .tagline{
-  /*font-family: 'Pacifico', cursive;*/
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: white;
   font-size: 50px;
@@ -78,7 +77,6 @@ a{
   font-size:25px;
   text-align: center;
   text-decoration: none;
-
 }
 #map {
   height: 500px;
@@ -87,4 +85,14 @@ a{
 }
 table{
   margin: 0px auto;
+}
+ul{
+  text-align: right;
+  background-color:rgba(0,0,0,.5);
+}
+li{
+  image-resolution: from-image;
+  display:inline-block;
+  text-align: right;
+  padding: 5px 10px 5px 10px;
 }
