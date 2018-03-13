@@ -46,18 +46,22 @@ a{
   text-align: left;
   font-family:'Yanone Kaffeesatz', sans-serif;
   font-size:40px;
+  margin-left: 100px;
   }
 .barlist{
   margin-bottom: 200px;
+  margin-left: 100px;
   }
 .food{
   color: black;
   text-align: left;
   font-family:'Yanone Kaffeesatz', sans-serif;
   font-size:40px;
+  margin-left: 100px;
 }
-.footlist{
+.foodlist{
   margin-bottom: 200px;
+  margin-left: 100px;
 }
 #cocktails{
   background-image: url("Photos/roman-kraft-310183-unsplash.jpg");
