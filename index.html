@@ -98,12 +98,20 @@
               var bungalowsandbears = {lat: 53.379926, lng: -1.475059};
               var marker = new google.maps.Marker({
                 position: bungalowsandbears,
-                map: map
+                map: map,
+                url: ("https://www.bungalowsandbears.com/")
+              });
+              google.maps.event.addListener(marker, 'click', function() {
+              window.location.href = this.url
               });
               var revoluciondecuba = {lat: 53.3805, lng: -1.4790};
               var marker = new google.maps.Marker({
                 position: revoluciondecuba,
-                map: map
+                map: map,
+                url: ("https://www.revoluciondecuba.com/bar/sheffield/")
+              });
+              google.maps.event.addListener(marker, 'click', function() {
+              window.location.href = this.url
               });
               var forum = {lat: 53.379347, lng: -1.477485}
               var marker = new google.maps.Marker({
@@ -111,30 +119,53 @@
                 map: map,
                 url: ("https://www.forumsheffield.co.uk/")
               });
+              google.maps.event.addListener(marker, 'click', function() {
+              window.location.href = this.url
+              });
               var wickatbothends = {lat: 53.380156, lng: -1.479040}
               var marker = new google.maps.Marker({
                 position: wickatbothends,
-                map: map
+                map: map,
+                url: ("https://www.thewickatbothends.com/")
+              });
+              google.maps.event.addListener(marker, 'click', function() {
+              window.location.href = this.url
               });
               var bloo88 = {lat: 53.380581, lng: -1.477937}
               var marker = new google.maps.Marker({
                 position: bloo88,
-                map: map
+                map: map,
+                url: ("http://www.bloo88.com/")
+              });
+              google.maps.event.addListener(marker, 'click', function() {
+              window.location.href = this.url
               });
               var tigerworks = {lat: 53.380943, lng: -1.476217}
               var marker = new google.maps.Marker({
                 position: tigerworks,
-                map: map
+                map: map,
+                url: ("http://www.tiger-works.co.uk/")
+              });
+              google.maps.event.addListener(marker, 'click', function() {
+              window.location.href = this.url
               });
               var bierkeller = {lat: 53.381234, lng: -1.474968}
               var marker = new google.maps.Marker({
                 position: bierkeller,
-                map: map
+                map: map,
+                url: ("http://sheffield.theoriginalbierkeller.com/")
+              });
+              google.maps.event.addListener(marker, 'click', function() {
+              window.location.href = this.url
               });
               var soyo = {lat: 53.380668, lng: -1.475611}
               var marker = new google.maps.Marker({
                 position: soyo,
-                map: map
+                map: map,
+                url: ("http://soyo.me/")
+              });
+              google.maps.event.addListener(marker, 'click', function() {
+              window.location.href = this.url
               });
             }
           </script>
