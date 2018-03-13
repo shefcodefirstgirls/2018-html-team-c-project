@@ -27,16 +27,8 @@ body{
   text-align: center;
   background-color: rgba(0,0,0,.5);
 }
-/*.btn-group {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 25px;
-  color: black;
-  background-color: black;
-  border-color: grey;
-  margin: 20px 0px 10px 0px;
-}*/
 .title{
-  background-image: url("cocktails.jpg");
+  background-image: url("Photos/cocktails.jpg");
   height: 500px;
   background-size: cover;
   Background-position: center;
@@ -55,7 +47,7 @@ body{
   font-size: 45px;
   text-align: left;
   color: #FF4500;
-  background-image: url("jakub-dziubak-312759-unsplash.jpg");
+  background-image: url("Photos/jakub-dziubak-312759-unsplash.jpg");
   margin: 50px 50px 50px 50px;
   padding: 150px 150px 150px 150px;
   background-repeat: no-repeat;
@@ -68,7 +60,7 @@ body{
   font-size: 45px;
   text-align: center;
   color: #FF4500;
-  background-image: url("etienne-pauthenet-153636-unsplash.jpg");
+  background-image: url("Photos/etienne-pauthenet-153636-unsplash.jpg");
   margin: 50px 50px 50px 50px;
   padding: 150px 150px 150px 150px;
   background-repeat: no-repeat;
