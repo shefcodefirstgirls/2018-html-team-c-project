@@ -59,14 +59,14 @@ a{
 .footlist{
   margin-bottom: 200px;
 }
-.cocktails{
+#cocktails{
   background-image: url("Photos/roman-kraft-310183-unsplash.jpg");
   height: 500px;
   background-size: cover;
   background-position: center;
   margin: 20px 0px 20px 0px;
 }
-.restaurants{
+#restaurants{
   background-image: url("Photos/lum3n-352940-unsplash.jpg");
   height: 500px;
   background-size: cover;
