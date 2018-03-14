@@ -9,7 +9,7 @@ body{
   font-size: 30px;
   color: white;
   padding: 15px 15px 15px 15px;
-  margin: 0px 0px 0px 20px;
+  margin: 10px 0px 0px 20px;
   border-style: none;
 }
 a{
@@ -42,7 +42,7 @@ a{
   padding: 20px 20px 20px 20px;
   background-size: contain;
   text-align: center;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.8);
 }
 .bar{
   color: black;

@@ -108,7 +108,7 @@
               ['Lucky Fox', 53.379769, -1.475903, 13, "http://www.theluckyfox.com/"],
               ['Steam Yard', 53.379412, -1.476086, 12, "http://steamyard.co.uk/"],
               ['Tamper Coffee', 53.380457, -1.476736, 11, "https://tampercoffee.co.uk/"],
-              ['Pieminister', 53.379889, -1.472493, 10, "https://www.pieminister.co.uk/restaurants/sheffield/"],
+              ['Pieminister', 53.379778, -1.474912, 10, "https://www.pieminister.co.uk/restaurants/sheffield/"],
               ['Nandos', 53.380479, -1.477231, 9, "https://www.nandos.co.uk/restaurants/sheffield-west-street?utm_source=googlemaps&utm_medium=organic&utm_content=SheffieldWestStreet&utm_campaign=local"],
               ['Bungalows and Bears', 53.379926, -1.475059, 8, "https://www.bungalowsandbears.com/"],
               ['Revolución de Cuba', 53.3805,  -1.4790, 7, "https://www.revoluciondecuba.com/bar/sheffield/"],
@@ -126,7 +126,8 @@
                 var marker = new google.maps.Marker({
                   position: {lat: location[1], lng: location[2]},
                   map: map,
-
+                  title: location[0],
+                  zIndex: location[3]
                 });
                 google.maps.event.addListener(marker, 'click', function() {
                 window.location.href = this.url
@@ -148,3 +149,24 @@
       </table>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
