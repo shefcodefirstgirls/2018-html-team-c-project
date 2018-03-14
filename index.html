@@ -4,6 +4,8 @@
     <title> Paige, Emma, and Kamilla </title>
     <link rel='stylesheet' type='text/css' href='index.css'>
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Londrina+Shadow|Pacifico|Abril+Fatface|Amatic+SC|Berkshire+Swash|Yanone+Kaffeesatz:200" rel="stylesheet">
+    <meta name = "viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
   </head>
 
   <body>
@@ -95,78 +97,37 @@
                     stylers: [{color: "#9e9e9e"}]
                   }]
               });
-              var bungalowsandbears = {lat: 53.379926, lng: -1.475059};
-              var marker = new google.maps.Marker({
-                position: bungalowsandbears,
-                map: map,
-                url: ("https://www.bungalowsandbears.com/")
-              });
-              google.maps.event.addListener(marker, 'click', function() {
-              window.location.href = this.url
-              });
-              var revoluciondecuba = {lat: 53.3805, lng: -1.4790};
-              var marker = new google.maps.Marker({
-                position: revoluciondecuba,
-                map: map,
-                url: ("https://www.revoluciondecuba.com/bar/sheffield/")
-              });
-              google.maps.event.addListener(marker, 'click', function() {
-              window.location.href = this.url
-              });
-              var forum = {lat: 53.379347, lng: -1.477485}
-              var marker = new google.maps.Marker({
-                position: forum,
-                map: map,
-                url: ("https://www.forumsheffield.co.uk/")
-              });
-              google.maps.event.addListener(marker, 'click', function() {
-              window.location.href = this.url
-              });
-              var wickatbothends = {lat: 53.380156, lng: -1.479040}
-              var marker = new google.maps.Marker({
-                position: wickatbothends,
-                map: map,
-                url: ("https://www.thewickatbothends.com/")
-              });
-              google.maps.event.addListener(marker, 'click', function() {
-              window.location.href = this.url
-              });
-              var bloo88 = {lat: 53.380581, lng: -1.477937}
-              var marker = new google.maps.Marker({
-                position: bloo88,
-                map: map,
-                url: ("http://www.bloo88.com/")
-              });
-              google.maps.event.addListener(marker, 'click', function() {
-              window.location.href = this.url
-              });
-              var tigerworks = {lat: 53.380943, lng: -1.476217}
-              var marker = new google.maps.Marker({
-                position: tigerworks,
-                map: map,
-                url: ("http://www.tiger-works.co.uk/")
-              });
-              google.maps.event.addListener(marker, 'click', function() {
-              window.location.href = this.url
-              });
-              var bierkeller = {lat: 53.381234, lng: -1.474968}
-              var marker = new google.maps.Marker({
-                position: bierkeller,
-                map: map,
-                url: ("http://sheffield.theoriginalbierkeller.com/")
-              });
-              google.maps.event.addListener(marker, 'click', function() {
-              window.location.href = this.url
-              });
-              var soyo = {lat: 53.380668, lng: -1.475611}
-              var marker = new google.maps.Marker({
-                position: soyo,
-                map: map,
-                url: ("http://soyo.me/")
-              });
-              google.maps.event.addListener(marker, 'click', function() {
-              window.location.href = this.url
-              });
+              setMarkers(map);
+            }
+            var locations = [
+              ['BBs Italian', 53.379449, -1.476928, 14, "http://www.bbsrestaurant.co.uk/"],
+              ['Lucky Fox', 53.379769, -1.475903, 13, "http://www.theluckyfox.com/"],
+              ['Steam Yard', 53.379412, -1.476086, 12, "http://steamyard.co.uk/"],
+              ['Tamper Coffee', 53.380457, -1.476736, 11, "https://tampercoffee.co.uk/"],
+              ['Pieminister', 53.379889, -1.472493, 10, "https://www.pieminister.co.uk/restaurants/sheffield/"],
+              ['Nandos', 53.380479, -1.477231, 9, "https://www.nandos.co.uk/restaurants/sheffield-west-street?utm_source=googlemaps&utm_medium=organic&utm_content=SheffieldWestStreet&utm_campaign=local"],
+              ['Bungalows and Bears', 53.379926, -1.475059, 8, "https://www.bungalowsandbears.com/"],
+              ['Revolución de Cuba', 53.3805,  -1.4790, 7, "https://www.revoluciondecuba.com/bar/sheffield/"],
+              ['Forum', 53.379347, -1.477485, 6, "https://www.forumsheffield.co.uk/"],
+              ['The Wick at Both Ends',  53.380156, -1.479040, 5, "https://www.thewickatbothends.com/"],
+              ['Bloo88', 53.380581, -1.477937, 4, "https://www.thewickatbothends.com/"],
+              ['Tiger Works', 53.380943, -1.476217, 3, "http://www.tiger-works.co.uk/"],
+              ['The Great Gatsby', 53.379738, 53.379738, 2, "http://www.thegatsbybar.co.uk/"],
+              ['Soyo', 53.380668, -1.475611, 1, "http://soyo.me/"]
+            ];
+
+            function setMarkers(map) {
+              for (var i=0; i < locations.length; i++){
+                var location = locations[i];
+                var marker = new google.maps.Marker({
+                  position: {lat: location[1], lng: location[2]},
+                  map: map,
+
+                });
+                google.maps.event.addListener(marker, 'click', function() {
+                window.location.href = this.url
+                });
+              }
             }
           </script>
           <script async defer
