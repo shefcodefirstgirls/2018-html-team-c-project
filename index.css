@@ -34,7 +34,7 @@ body{
   height: 500px;
   background-size: cover;
   Background-position: center;
-  margin: 20px 0px 50px 0px;
+  margin: 0px 0px 50px 0px;
 }
 .location{
   font-family: 'Berkshire Swash', cursive;
@@ -87,12 +87,13 @@ table{
   margin: 0px auto;
 }
 ul{
+  background-color:black;
   text-align: right;
-  background-color:rgba(0,0,0,.5);
+  margin-bottom: auto;
+  padding: 1px 1px 1px 1px;
 }
 li{
-  image-resolution: from-image;
-  display:inline-block;
   text-align: right;
-  padding: 5px 10px 5px 10px;
+  display: inline-flex;
+  background-size: auto;
 }

@@ -24,7 +24,7 @@ a{
   height: 500px;
   background-size: cover;
   Background-position: center;
-  margin: 20px 0px 0px 0px;
+  margin: 00px 0px 0px 0px;
 }
 .page-name{
   font-family: 'Berkshire Swash', cursive;
@@ -32,7 +32,7 @@ a{
   font-size: 90px;
   text-align: left;
   padding: 2px 2px 2px 2px;
-  margin: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 .tagline{
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -89,4 +89,15 @@ color: black;
 text-align: left;
 font-family:'Yanone Kaffeesatz', sans-serif;
 font-size:20px;
+}
+ul{
+  background-color:black;
+  text-align: right;
+  margin-bottom: auto;
+  padding: 1px 1px 1px 1px;
+}
+li{
+  text-align: right;
+  display: inline-flex;
+  background-size: auto;
 }
