@@ -130,9 +130,14 @@
             title: location[0],
             zIndex: location[3]
           });
-          google.maps.event.addListener(marker, 'click', function() {
-          window.location.href = this.url
-          });
+          map.setCenter(marker.getPosition())
+
+          google.maps.event.addListener(marker, 'mouseover', (function(marker) {
+            return function(){
+              infowindow.setContent(content);
+              infowindow.open(map, marker);
+            };
+          }) (marker));
         }
       }
       </script>
