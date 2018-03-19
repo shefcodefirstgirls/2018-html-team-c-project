@@ -55,7 +55,7 @@ a{
   text-align: center;
   font-size: 30px;
   margin-bottom: 400px;
-  background-color:rgba(0,0,0,.7);
+  background:linear-gradient(grey,black);
 
   }
 .food{
@@ -68,7 +68,7 @@ a{
 .foodlist{
   text-align: center;
   font-size: 30px;
-  background-color: rgba(0,0,0,.7);
+  background:linear-gradient(grey,black);
 }
 #cocktails{
   background-image: url("Photos/roman-kraft-310183-unsplash.jpg");
