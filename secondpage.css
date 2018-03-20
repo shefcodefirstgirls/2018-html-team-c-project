@@ -101,3 +101,30 @@ li{
   display: inline-flex;
   background-size: auto;
 }
+@media (max-width: 700px){
+  .tagline {
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+  }
+  .title {
+    height: 250px;
+  }
+  #cocktails {
+    height: 250px;
+  }
+  #restaurants{
+    height:250px;
+  }
+  .bar{
+    font-size: 25px;
+  }
+  .food{
+    font-size: 25px;
+  }
+  .barlist{
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .foodlist{
+    font-size: 20px;
+  }
