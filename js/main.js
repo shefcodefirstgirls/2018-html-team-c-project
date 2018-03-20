@@ -61,8 +61,8 @@ function initMap() {
         stylers: [{color: "#757575"}]
       },
       {
-        "featureType": "road.highway",
-        "elementType": "geometry",
+        featureType: "road.highway",
+        elementType: "geometry",
         stylers: [{color: "#dadada"}]
       },
       {
