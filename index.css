@@ -31,7 +31,7 @@ body{
 }
 .title{
   background-image: url("Photos/cocktails.jpg");
-  height: 500px;
+  height: cover;
   background-size: cover;
   Background-position: center;
   margin: 0px 0px 50px 0px;
@@ -48,11 +48,11 @@ body{
 .cocktails{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 45px;
-  text-align: left;
+  text-align: center;
   color: black;
   background-image: url("Photos/jakub-dziubak-312759-unsplash.jpg");
-  margin: 50px 50px 50px 50px;
-  padding: 150px 90px 150px 90px;
+  height: 400px;
+  width: 400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -65,8 +65,8 @@ body{
   text-align: center;
   color: black;
   background-image: url("Photos/etienne-pauthenet-153636-unsplash.jpg");
-  margin: 50px 50px 50px 50px;
-  padding: 150px 100px 150px 100px;
+  height: 400px;
+  width: 400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -106,4 +106,43 @@ h3{  font-family: 'Yanone Kaffeesatz', sans-serif;
   background-size: contain;
   text-align: center;
   background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9));
+}
+@media (max-width: 600px) {
+  #map{
+    height: 200px;
+    width: cover;
+    margin: 10px;
+  }
+  .website-name{
+    font-size: 50px;
+  }
+  .tagline{
+    font-size: 25px;
+    margin: 10px;
+  }
+  h3{
+    font-size: 20px;
+  }
+}
+@media (max-width: 700px){
+  .cocktails{
+    font-size: 25px;
+    height: 250px;
+    width: 250px;
+  }
+  .restaurants{
+    font-size: 25px;
+    height: 250px;
+    width: 250px;
+  }
+}
+@media (max-width: 500px){
+  .cocktails{
+    height: 200px;
+    width: 200px;
+  }
+  .restaurants{
+    height: 200px;
+    width: 200px;
+  }
 }
